@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#student-info,
+#activity-container,
+#image-container {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0;
+}
+
+/* Frame for images */
+#image-container img {
+    display: block;
+    max-width: 100%;
+    max-height: 400px; 
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Description displayed on the right */
+#activity-container {
+    display: flex;
+    align-items: center;
+}
+
+#activity-description {
+    width: 40px; 
+    margin-left: 20px; 
+}
